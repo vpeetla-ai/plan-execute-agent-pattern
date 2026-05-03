@@ -19,3 +19,12 @@ python -m plan_execute_agent_pattern
 pytest
 ```
 
+The default demo uses deterministic planner, executor, and synthesizer stubs, so it runs without external API keys.
+
+For local setup, environment variables, LLM API keys, database configuration, and production adapter guidance, see [docs/LOCAL_DEVELOPMENT.md](docs/LOCAL_DEVELOPMENT.md).
+
+Create your local secret file from:
+
+```bash
+cp .env.example .env
+```
