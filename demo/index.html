@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Plan-Execute — Live Demo</title>
+<link rel="stylesheet" href="styles.css"/></head><body><main class="shell">
+<p class="tag">Production Agent Patterns · 3/5</p><h1>Plan-Execute Agent Pattern</h1>
+<p class="lede">Decompose goals into steps, execute specialists, verify completion.</p>
+<section class="panel"><button id="run" type="button">Run architecture review plan</button>
+<div id="answer" class="answer"></div><div id="trace" class="trace"></div></section></main>
+<script>
+const DEMO={answer:"Migration plan: inventory → pilot → dual-read → cutover with rollback.",events:[
+{name:"planner.plan",payload:{steps:["Inventory services","Pilot low-risk workloads","Dual-read verification","Cutover with rollback"]}},
+{name:"executor.step",payload:{step:1,result:"12 services mapped with owners"}},
+{name:"executor.step",payload:{step:2,result:"3 services migrated to staging"}},
+{name:"verifier.check",payload:{status:"pass",coverage:"telemetry parity"}}]};
+const trace=document.getElementById("trace");
+document.getElementById("run").onclick=async()=>{trace.innerHTML="";document.getElementById("answer").textContent="";
+for(const e of DEMO.events){const el=document.createElement("div");el.className="event live";
+el.innerHTML=`<strong>${e.name}</strong><pre>${JSON.stringify(e.payload,null,2)}</pre>`;trace.appendChild(el);
+await new Promise(r=>setTimeout(r,700));el.classList.remove("live");el.classList.add("done");}
+document.getElementById("answer").textContent=DEMO.answer;};
+</script></body></html>
