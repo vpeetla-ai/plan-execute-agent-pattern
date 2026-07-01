@@ -1,7 +1,22 @@
 # Plan and Execute Agent Pattern
 
+**Part 3 of 5 — explicit planning before tool execution.** Used in **VAP Architecture Review**.
 
-## Agent skills (Cursor + Codex)
+[▶ Live demo](https://plan-execute-agent-pattern.vercel.app) · [Architecture](docs/ARCHITECTURE.md) · [Portfolio](https://venkat-ai.com/work) · [VAP case study](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/venkat-ai-platform.md)
+
+## What this is
+
+Decompose goals into steps, then execute — safer multi-step enterprise workflows.
+
+## How we solve it
+
+Separate planner and executor roles with inspectable plan artifacts and deterministic tests.
+
+## Case study & tradeoffs
+
+[venkat-ai.com/work](https://venkat-ai.com/work) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+
+---
 
 Org skills: [vpeetla-ai-skills](https://github.com/vpeetla-ai/vpeetla-ai-skills). This repo includes `.cursor/skills/`, `AGENTS.md`, and `CONTEXT.md`.
 
