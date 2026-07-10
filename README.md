@@ -32,6 +32,8 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 ---
 
 
+> **Scope:** Curriculum stub with deterministic tests and a live trace viewer — not a production agent fleet. Compose into [Venkat AI Platform](https://github.com/vpeetla-ai/venkat-ai-platform) for governed graphs.
+
 ## Implementation status
 
 | Component | Status | Notes |
@@ -45,12 +47,12 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://plan-execute-agent-pattern.vercel.app)
-[![Part of Production Agent Patterns](https://img.shields.io/badge/series-Production%20Agent%20Patterns-purple)](https://github.com/vpeetla-ai/plan-execute-agent-pattern)
+[![Part of Curriculum Agent Patterns](https://img.shields.io/badge/series-Curriculum%20Agent%20Patterns-purple)](https://github.com/vpeetla-ai/plan-execute-agent-pattern)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Part 3 of 5** in the [Production Agent Patterns](https://github.com/vpeetla-ai/react-agent-pattern) series.
+**Part 3 of 5** in the [Curriculum Agent Patterns](https://github.com/vpeetla-ai/react-agent-pattern) series.
 
-Production-grade reference implementation of the **Plan and Execute** pattern for research, reporting, data analysis, and controlled multi-step workflows.
+Curriculum teaching stub (compose into VAP for production graphs) of the **Plan and Execute** pattern for research, reporting, data analysis, and controlled multi-step workflows.
 
 | # | Pattern | Repository | Use when |
 |---|---------|------------|----------|
