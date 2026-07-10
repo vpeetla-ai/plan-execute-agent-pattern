@@ -2,9 +2,9 @@
 
 
 <!-- vpeetla-tech-stack:start -->
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square)]() [![LangGraph](https://img.shields.io/badge/LangGraph-9333EA?style=flat-square)]() [![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square)]() [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square)]()
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square)]() [![Curriculum stub](https://img.shields.io/badge/Curriculum-stub-0EA5E9?style=flat-square)]() [![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square)]() [![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square)]()
 <!-- vpeetla-tech-stack:end -->
-**Part 3 of 5 — explicit planning before tool execution.** Used in **VAP Architecture Review**.
+**Curriculum teaching stub for Plan-Execute loops** — explicit planning before tool execution. Pattern used in **VAP Architecture Review**.
 
 [▶ Live demo](https://plan-execute-agent-pattern.vercel.app) · [Architecture](docs/ARCHITECTURE.md) · [Portfolio](https://venkat-ai.com/work) · [VAP case study](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/venkat-ai-platform.md)
 
@@ -62,7 +62,7 @@ Curriculum teaching stub (compose into VAP for production graphs) of the **Plan 
 | 4 | Multi-Agent | [multi-agent-system-pattern](https://github.com/vpeetla-ai/multi-agent-system-pattern) | Specialized role delegation |
 | 5 | Swarm | [swarm-agent-pattern](https://github.com/vpeetla-ai/swarm-agent-pattern) | Parallel autonomous agents |
 
-[▶ Live demo](https://plan-execute-agent-pattern.vercel.app) · [📖 Full series roadmap](https://github.com/vpeetla-ai/ai-content-factory/blob/main/docs/agent-patterns/ROADMAP.md) · [🚀 See in production — AI Content Factory](https://ai-content-factory-iota.vercel.app)
+[▶ Live demo](https://plan-execute-agent-pattern.vercel.app) · [📖 Full series roadmap](https://github.com/vpeetla-ai/ai-content-factory/blob/main/docs/agent-patterns/ROADMAP.md) · [Compose in production — AI Content Factory (separate repo)](https://ai-content-factory-iota.vercel.app)
 
 ---
 
